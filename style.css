@@ -11,7 +11,7 @@
 
 .logo{
     float: left;
-    width: 130px;
+    height: 80px;
     margin-top: 5px;
     margin-left: 3%;
 }
@@ -24,6 +24,7 @@
     display: flex;
     list-style-type: none;
     white-space: nowrap;
+
 }
 .main_nav ul{
 
@@ -41,7 +42,7 @@
 .main_nav ul li a{
     font-size: 90%;
     font-weight: bold;
-    padding: 15px 0;
+    padding: 35px;
     color: #ffffff;
     text-decoration: none;
     display: block;
