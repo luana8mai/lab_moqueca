@@ -1,38 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap');
 *{
     text-decoration: none;
     margin: 0;
     padding: 0;
-    background-color: rgb(50, 50, 50);
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .logo{
     float: left;
     height: 80px;
     margin-top: 5px;
-    margin-left: 3%;
+    margin-left: 15%;
 }
 .main_menu{
     width: 100%;
     white-space: nowrap;
     text-align: center;
+    background-color: rgb(30, 30, 30);
 }
 .main_nav{
     display: flex;
     list-style-type: none;
     white-space: nowrap;
-
+    background-color: rgb(30, 30, 30);
 }
 .main_nav ul{
-
+    margin-right: 15%;
     text-align: right;
     padding: 0;
 }
 .main_nav ul li{
-    background-color: #fff;
     position: relativergb(0, 0, 0);
     list-style-type: none;
     display: inline-block;
@@ -80,3 +80,50 @@
 .main_nav ul li a:hover::before {
     opacity: 1;
 }
+
+.container_intro{
+    background-color: rgb(255, 255, 255);
+}
+.background_intro{
+    background: url(images/background_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.h1_intro{
+    margin-top: 5%;
+    margin-left: 15%;
+    color: #ffffff;
+    width: 30%;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1vw;
+}
+.p_intro{
+    margin-top: 2%;
+    margin-left: 15%;
+    color: #ffffff;
+    width: 30%;
+    font-size: 0.9vw;
+}
+
+.button_intro{
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    color: #ffffff;
+    width: 30%;
+}
+.button {
+    background-color: rgb(106, 183, 255);
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1vw;
+    letter-spacing: .15rem;
+}
+
