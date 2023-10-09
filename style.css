@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700&display=swap');
 *{
     text-decoration: none;
     margin: 0;
@@ -127,3 +128,40 @@
     letter-spacing: .15rem;
 }
 
+.container_aboutus{
+    margin-top: 5%;
+    height: auto;
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
+}
+.text_aboutus{
+    width: 50%;
+}
+.text_aboutus h2{
+    font-size: 3vw;
+    color: #312f50;
+}
+.text_aboutus a{
+    color: rgb(80, 80, 80);
+    font-size: 0.9vw;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
+
+}
+.text_aboutus p{
+    /* margin-top: 4%; */
+    font-size: 1vw;
+    text-align: justify;
+    line-height: 1.5vw;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 4% 0% 0% 0%;
+    font-weight: 200;
+}
+.image_aboutus{
+    height: auto;
+    width: 50%;
+    text-align: center;
+    flex-direction: column;
+}
