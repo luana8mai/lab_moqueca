@@ -41,8 +41,6 @@
     color: aliceblue;
     font-weight: 400;
 }
-
-
 .material-symbols-outlined{
     margin-bottom: 5px;
     margin-top: 5px;
@@ -66,7 +64,7 @@
     margin-right: 2%
 }
 .a_intro{
-    font-size: 30px;
+    font-size: 40px;
     color: #fff;
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 200;
@@ -75,7 +73,7 @@
     color: #ffffff;
     margin-top: 15px;
     font-family: 'Lexend Deca',  sans-serif;
-    font-size: 15px;
+    font-size: 20px;
 }
 .p_intro{
     margin-top: 5%;
@@ -88,7 +86,8 @@
     margin-top: 5%;
     margin-bottom: 5%;
     color: #ffffff;
-    width: 30%;
+    width: 100%;
+    font-size: 18px;
 }
 .button {
     background-color: rgb(106, 183, 255);
@@ -107,12 +106,11 @@
 .container_aboutus{
     padding-right:10px;
     margin-top: 10%;
-    height: auto;
     margin-left: 2%;
-}
 
+}
 .text_aboutus h2{
-    font-size: 50px;
+    font-size: 45px;
     color: #312f50;
     padding: 10px 0px 30px;
 }
@@ -130,10 +128,6 @@
 }
 .image_aboutus{
     padding-top: 10%;
-    height: auto;
     justify-content: center;
     text-align: center;
-}
-.image_aboutus img{
-    width: 100%;
 }
