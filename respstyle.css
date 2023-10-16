@@ -65,7 +65,7 @@
     margin-left: 2%;
 }
 .a_intro{
-    font-size: 40px;
+    font-size: 30px;
     color: #fff;
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 200;
@@ -73,17 +73,14 @@
 .h1_intro{
     color: #ffffff;
     margin-top: 15px;
-    width: 30%;
     font-family: 'Lexend Deca',  sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     width: 500px;
 }
 .p_intro{
     margin-top: 5%;
     color: #ffffff;
-    width: 30%;
     font-size: 20px;
-    width: 600px;
     line-height: 30px;
 }
 
@@ -132,9 +129,11 @@
     font-weight: 300;
 }
 .image_aboutus{
-    margin-top: 10%;
+    padding-top: 10%;
     height: auto;
     justify-content: center;
     text-align: center;
-
+}
+.image_aboutus img{
+    width: 100%;
 }
