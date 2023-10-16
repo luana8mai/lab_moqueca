@@ -56,3 +56,85 @@
 .material-symbols-outlined:hover{
     color: rgb(39, 72, 172);
 }
+.container_intro{
+    background:url(images/background_2.jpg) ;
+    height: 800px;
+}
+.background_intro{
+    padding-top: 100px;
+    margin-left: 2%;
+}
+.a_intro{
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 200;
+}
+.h1_intro{
+    color: #ffffff;
+    margin-top: 15px;
+    width: 30%;
+    font-family: 'Lexend Deca',  sans-serif;
+    font-size: 20px;
+    width: 500px;
+}
+.p_intro{
+    margin-top: 5%;
+    color: #ffffff;
+    width: 30%;
+    font-size: 20px;
+    width: 600px;
+    line-height: 30px;
+}
+
+.button_intro{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #ffffff;
+    width: 30%;
+}
+.button {
+    background-color: rgb(106, 183, 255);
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    text-decoration: none;
+}
+.button:hover {
+    transition: 0.5s;
+    background-color: #6b6b6b6e;
+}
+
+.container_aboutus{
+    padding-right:10px;
+    margin-top: 10%;
+    height: auto;
+    margin-left: 2%;
+}
+
+.text_aboutus h2{
+    font-size: 50px;
+    color: #312f50;
+    padding: 10px 0px 30px;
+}
+.text_aboutus a{
+    color: rgb(80, 80, 80);
+    font-size: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 200;
+}
+.text_aboutus p{
+    font-size: 20px;
+    line-height: 32px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
+}
+.image_aboutus{
+    margin-top: 10%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+
+}
