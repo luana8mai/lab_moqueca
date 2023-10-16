@@ -126,12 +126,16 @@
         width: 50%;
         padding-right: 50px;
     }
+    .text_aboutus h2{
+        padding: 0;
+    }
     .text_aboutus p{
         text-align: justify;
         line-height: 30px;
         padding: 4% 0% 0% 0%;
     }
     .image_aboutus{
+        padding: 0;
         width: 50%;
         flex-direction: column;
     }

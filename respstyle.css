@@ -62,7 +62,8 @@
 }
 .background_intro{
     padding-top: 100px;
-    margin-left: 2%;
+    margin-left: 3%;
+    margin-right: 2%
 }
 .a_intro{
     font-size: 30px;
@@ -75,7 +76,6 @@
     margin-top: 15px;
     font-family: 'Lexend Deca',  sans-serif;
     font-size: 15px;
-    width: 500px;
 }
 .p_intro{
     margin-top: 5%;
