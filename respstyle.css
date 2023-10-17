@@ -90,7 +90,7 @@
     font-size: 14px;
 }
 .button {
-    background-color: rgb(106, 183, 255);
+    background-color: rgb(4, 85, 160);
     display: inline-block;
     padding: .75rem 1.25rem;
     color: #fff;
@@ -135,4 +135,31 @@
 }
 .image_aboutus img{
     width: 100%;
+}
+.container_contact{
+    text-align: center;
+    margin-top: 10%;
+    background-color: #81818123;
+    height: 800px;
+    padding: 3rem 2rem 1rem;
+}
+.container_contact h2{
+    color: #000000;
+    font-family: 'Lexend Deca',  sans-serif;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.container_contact a{
+    color: rgb(126, 126, 126);
+    font-size: 16px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
+}
+.media{
+    margin-top: 10%;
+    padding: 2rem 2rem 1rem;
+    border-radius: 8px;
+    background-color: rgb(1, 51, 160);;
+    background: linear-gradient(to left,rgb(1, 51, 160), rgb(90, 203, 255));
+    height: 400px;
 }
