@@ -56,7 +56,7 @@
 }
 .container_intro{
     background:url(images/background_2.jpg) ;
-    height: 800px;
+    height: 700px;
 }
 .background_intro{
     padding-top: 60px;
@@ -140,7 +140,7 @@
     text-align: center;
     margin-top: 10%;
     background-color: #81818123;
-    height: 800px;
+
     padding: 3rem 2rem 1rem;
 }
 .container_contact h2{
@@ -181,13 +181,30 @@
 .form button{
     border: 0px;
     height: 40px;
-    background: rgb(5, 105, 199);
+    background:  rgba(0, 41, 177, 0.808);
     color: #ffffff;
 }
 .form button:hover{
-    background-color: #2727276e;
+    background-color: #181818d3;
     transition: 0.5s;
 }
-.media{
 
+.media{
+    padding: 50px 30px 20px;    
+    margin-top: 30px;
+    background-color: rgba(0, 41, 177, 0.808);
+
+}
+.media__inf{
+display: flex;
+margin-bottom: 30px;
+}
+.media__inf p{
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.media__inf img{
+    width: 30px;
 }
