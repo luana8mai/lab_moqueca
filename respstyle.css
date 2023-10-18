@@ -90,7 +90,7 @@
     font-size: 14px;
 }
 .button {
-    background-color: rgb(4, 85, 160);
+    background-color: rgb(5, 105, 199);
     display: inline-block;
     padding: .75rem 1.25rem;
     color: #fff;
@@ -155,11 +155,39 @@
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 300;
 }
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    margin-top: 6%;
+    align-items: center;
+}
+.form input,
+.form textarea,
+.form button {
+    width: 100%;
+    margin-top: 15px;
+    border: 1px solid #c7c7c7;
+    background-color: #ffffff23;
+    height: 20px;
+    padding: 10px;
+}
+.form textarea{
+    resize: vertical;
+    min-height:  10rem;
+    padding: 10px;
+}
+.form button{
+    border: 0px;
+    height: 40px;
+    background: rgb(5, 105, 199);
+    color: #ffffff;
+}
+.form button:hover{
+    background-color: #2727276e;
+    transition: 0.5s;
+}
 .media{
-    margin-top: 10%;
-    padding: 2rem 2rem 1rem;
-    border-radius: 8px;
-    background-color: rgb(1, 51, 160);;
-    background: linear-gradient(to left,rgb(1, 51, 160), rgb(90, 203, 255));
-    height: 400px;
+
 }

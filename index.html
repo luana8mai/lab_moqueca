@@ -47,9 +47,17 @@
     </div>
     <div class="container_contact">
         <h2>ACESSE NOSSAS REDES</h2>
-        <a>Receba comunicados de eventos ou palestras em nossas redes sociais e entre em contato conosco pelo nosso E-mail.</a>
+        <a>Receba comunicados de eventos e palestras em nossas redes sociais. Entre em contato conosco pelo nosso E-mail.</a>
+        <div> 
+            <form action="https://formsubmit.co/your@email.com" method="POST" class="form">
+                <input type="text" name="name" placeholder="Nome" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+                <textarea name="message" placeholder="Mensagem" required></textarea>
+                <input type="hidden" name="_captcha" value="false">
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
         <div class="media"></div>
-        <div class="form"></div>
     </div>
     <script>
     function mudouTamanho(){
