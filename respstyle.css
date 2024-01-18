@@ -234,16 +234,21 @@ margin-bottom: 30px;
 .members_list li p{
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: justify;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
 }
 .media_members{
     display: flex;
     margin-bottom: 10px;
 }
 .media_members img{
-    width: 40px;
+    width: 35px;
     margin-right: 10px;
 }
 .media_members a{
     margin-top: 10px;
-    
+    text-decoration: none;
+    color: rgb(39, 72, 172);
+    font-weight: 500;
 }
