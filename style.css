@@ -157,5 +157,23 @@
         width: 60%;
         margin-top: 5%;
     }
-
+    .container_members_title h1{
+        margin-left: 15%;
+    }
+    .container_members{
+        margin-top: 30px;        
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .members_list{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .members_list li{
+        width: 50%;
+    }
+    .members_list li p{
+        line-height: 25px;
+    }
 }
