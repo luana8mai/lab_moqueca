@@ -25,7 +25,7 @@
 
 #main_nav{
     display: none;
-    margin-top: 520px;
+    margin-top: 440px;
     width: 100%;
     position: absolute;
 }
@@ -181,7 +181,7 @@
 .form button{
     border: 0px;
     height: 40px;
-    background:  rgba(0, 41, 177, 0.808);
+    background:  rgba(5, 105, 199);
     color: #ffffff;
 }
 .form button:hover{
@@ -192,7 +192,7 @@
 .media{
     padding: 50px 30px 20px;    
     margin-top: 30px;
-    background-color: rgba(0, 41, 177, 0.808);
+    background-color: rgba(5, 105, 199);
 
 }
 .media__inf{
@@ -207,4 +207,43 @@ margin-bottom: 30px;
 }
 .media__inf img{
     width: 30px;
+}
+
+/*Membros*/
+
+.container_members_title{
+    background:url(images/background_2.jpg) ;
+    height: 150px;
+}
+
+.container_members_title h1{
+    color: #ffffff;
+    font-family: 'Lexend Deca',  sans-serif;
+    padding: 50px;
+}
+
+.members_list{
+    list-style-type: none;
+}
+.members_list li{
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid rgba(30, 30, 30, 0.479);
+    margin: 30px;
+}
+.members_list li p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.media_members{
+    display: flex;
+    margin-bottom: 10px;
+}
+.media_members img{
+    width: 40px;
+    margin-right: 10px;
+}
+.media_members a{
+    margin-top: 10px;
+    
 }

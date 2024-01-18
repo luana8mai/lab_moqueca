@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="respstyle.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/logo_moqueca4.png" type="image/x-icon">    
+    <title>Moqueca</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body onresize="mudouTamanho()">
+    <div class="container_menu"> 
+    <img class="logo" src="images/logo_moqueca3.png" alt="">
+    <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+        <div id="main_nav">
+            <ul class="main_menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="https://www.google.com.br/?hl=pt-BR">TRABALHOS</a></li>
+                <li><a href="membros.html">MEMBROS</a></li>
+                <li><a href="https://www.google.com.br/?hl=pt-BR">CONTATOS</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container_members_title">
+        <h1>Membros</h1>
+    </div>
+    <div class="container_members">
+        <ul class="members_list">
+            <li>
+                <h2>Wallace Prodígios Morais</h2><p>Trabalho com defeitos em monocamada de Carbeto de Silício (SiC) e suas implicações, como a mudança de reatividade do sistema devido a presença desses defeitos.
+                O grupo organizou o evento internacional QMES que trouxe muita aprendizagem para o grupo.</p>
+                <div class="media_members">
+                    <img src="images/Lattes.png">
+                    <a href="http://lattes.cnpq.br/5275768635562788">Currículo no Lattes</a>
+                </div>
+                <div class="media_members">
+                    <img src="images/icone texto.png">
+                    <a href="https://pubs.rsc.org/en/content/articlelanding/2023/cp/d3cp04267g/unauth">Acesse um dos meus trabalhos</a>
+                </div>
+            </li>
+            <li><p>oie!!</p></li>
+            <li><p>oie!!</p></li>
+            <li><p>oie!!</p></li>
+            <li><p>oie!!</p></li>
+        </ul>
+    </div>
+    
+    <script>
+        function mudouTamanho(){
+            if (window.innerWidth>=1025){
+                main_nav.style.display = 'block'
+            } else{
+                main_nav.style.display = 'none'
+            }
+        }
+    
+        function clickMenu() {
+            if (main_nav.style.display == 'block') {
+                main_nav.style.display = 'none'
+            } else{
+                main_nav.style.display = 'block'
+            }
+    }
+        </script>
+</body>
+</html>
